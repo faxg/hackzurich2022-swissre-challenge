@@ -1,31 +1,40 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Theme Carbon',
-    description: 'A Gatsby theme for the carbon design system',
-    keywords: 'gatsby,theme,carbon',
+    title:
+      "HackZurich 2022 - SwissRe + Microsoft Challenge on Extended Reality",
+    description: "A Gatsby theme for the carbon design system",
+    keywords:
+      "hackzurich,swissre,microsoft,challenge,mixed reality,extended reality,augmented reality, virtual reality, hololens",
   },
   pathPrefix: `/gtc`,
   plugins: [
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: "gatsby-plugin-manifest",
       options: {
-        name: 'Carbon Design Gatsby Theme',
-        icon: 'src/images/favicon.svg',
-        short_name: 'Gatsby Theme Carbon',
-        start_url: '/',
-        background_color: '#ffffff',
-        theme_color: '#161616',
-        display: 'browser',
+        name: "HackZurich 2022 SwissRe and Microsoft Challenge",
+        icon: "./static/images/favicon.svg",
+        short_name: "SwissRe + MSFT Challenge",
+        start_url: "/",
+        background_color: "#ffffff",
+        theme_color: "#627d77",
+        display: "browser",
       },
     },
     {
-      resolve: 'gatsby-theme-carbon',
+      resolve: "gatsby-theme-carbon",
       options: {
-        mediumAccount: 'carbondesign',
+        mediumAccount: "carbondesign",
+        iconPath: "./static/images/favicon.svg",
+        isSwitcherEnabled: false,
+        titleType: "page",
+        theme: {
+          homepage: "dark",
+          interior: "dark",
+        },
+
         repository: {
-          baseUrl:
-            'https://github.com/carbon-design-system/gatsby-theme-carbon',
-          subDirectory: '/packages/example',
+          baseUrl: "https://github.com/faxg/hackzurich2022-swissre-challenge",
+          branch: "master",
         },
       },
     },

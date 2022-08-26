@@ -1,9 +1,10 @@
-import React from 'react';
-import Header from 'gatsby-theme-carbon/src/components/Header';
+import React from "react";
+import Header from "gatsby-theme-carbon/src/components/Header";
 
 const CustomHeader = (props) => (
-  <Header {...props}>
-    Gatsby theme&nbsp;<span>Carbon</span>
+  <Header isSwitcherEnabled={false}>
+    {console.log(props)}
+    Hack Zurich 2022&nbsp;<span>SwissRe + Microsoft Challenge</span>
   </Header>
 );
 

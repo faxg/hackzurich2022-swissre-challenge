@@ -1,42 +1,43 @@
-import React from 'react';
-import Footer from 'gatsby-theme-carbon/src/components/Footer';
+import React from "react";
+import Footer from "gatsby-theme-carbon/src/components/Footer";
 
 const Content = ({ buildTime }) => (
   <>
-    <p>
-      The <code>Content</code> component receives a <code>buildTime</code> prop
-      that to display your site's build time: {buildTime}
-    </p>
-    <p>
-      By importing the <strong>Footer</strong> component from
-      gatsby-theme-carbon, we can supply our own props.
-    </p>
-    <p>
-      The default export from a shadowed component will replace that component
-      in the theme.
-    </p>
-    <p>
-      <a href="https://www.gatsbyjs.org/docs/themes/api-reference/#component-shadowing">
-        More about component shadowing
-      </a>
-    </p>
+    <p>Site build time: {buildTime}</p>
   </>
 );
 
 const links = {
   firstCol: [
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
+    {
+      href: "http://microsoft.com/en-us/research/",
+      linkText: "Microsoft Research",
+    },
+    {
+      href: "https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/",
+      linkText: "Microsoft Mixed Reality & AI Lab - Zurich",
+    },
+    {
+      href: "https://docs.microsoft.com/en-us/windows/mixed-reality/",
+      linkText: "Mixed Reality documentation",
+    },
   ],
   secondCol: [
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
-    { href: 'https://ibm.com/design', linkText: 'Shadowed link' },
+    { href: "https://aka.ms/hackzurich2022", linkText: "Link 4" },
+    { href: "https://aka.ms/hackzurich2022", linkText: "Link 5" },
+    { href: "https://aka.ms/hackzurich2022", linkText: "Link 6" },
+    { href: "https://aka.ms/hackzurich2022", linkText: "Link 7" },
   ],
 };
 
-const CustomFooter = () => <Footer links={links} Content={Content} />;
+const CustomFooter = () => (
+  <Footer
+    links={links}
+    Content={Content}
+    Logo={() => (
+      <img className={"logo"} src="/images/logo.svg" alt="Logo"></img>
+    )}
+  />
+);
 
 export default CustomFooter;
