@@ -1,4 +1,4 @@
-- title: Getting started
+- title: Home
   pages:
     - path: /
 - title: HackZurich 2022
@@ -8,7 +8,7 @@
     - title: Judging Criteria
       path: /challenge/criteria
     - title: Meet the team
-      path: /team
+      path: /challenge/team
     - title: Schedule
       path: /challenge/schedule
 # - title: Gallery
@@ -23,10 +23,10 @@
       path: /learningpaths
     - title: Videos and Tutorials
       path: /video-tutorials
-    - title: Inspiration
-      path: /inspiration
-    - title: Azure Services
-      path: /azure-services
+    # - title: Inspiration
+    #   path: /inspiration
+    # - title: Azure Services
+    #   path: /azure-services
 # - title: Components
 # pages:
 #   - title: Accordion

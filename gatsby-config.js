@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "HackZurich 2022 SwissRe and Microsoft Challenge",
+        name: "HackZurich 2022 SwissRe + Microsoft Challenge on Extended Reality",
         icon: "./static/images/favicon.svg",
         short_name: "SwissRe + MSFT Challenge",
         start_url: "/",
@@ -23,7 +23,6 @@ module.exports = {
     {
       resolve: "gatsby-theme-carbon",
       options: {
-        mediumAccount: "carbondesign",
         iconPath: "./static/images/favicon.svg",
         isSwitcherEnabled: false,
         titleType: "page",

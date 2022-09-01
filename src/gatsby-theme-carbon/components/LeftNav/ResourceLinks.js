@@ -14,6 +14,10 @@ const links = [
     title: "Microsoft  - Mixed Reality",
     href: "https://docs.microsoft.com/en-us/windows/mixed-reality/discover/mixed-reality",
   },
+  {
+    title: "Microsoft.Source Newsletter",
+    href: "https://aka.ms/hackzurich2022-newsletter",
+  },
 ];
 
 // shouldOpenNewTabs: true if outbound links should open in a new tab
