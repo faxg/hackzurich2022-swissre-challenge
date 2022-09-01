@@ -7,8 +7,12 @@ const links = [
     href: "https://www.hackzurich.com/schedule",
   },
   {
-    title: "SwissRe - Nat Cat",
+    title: "Swiss Re - Nat Cat",
     href: "https://www.swissre.com/campaigns/natcat-2020.html",
+  },
+  {
+    title: "Swiss Re - FLOAT",
+    href: "https://corporatesolutions.swissre.com/innovative-risk-solutions/weather-solutions/float.html",
   },
   {
     title: "Microsoft  - Mixed Reality",

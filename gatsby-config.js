@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title:
-      "HackZurich 2022 - SwissRe + Microsoft Challenge on Extended Reality",
-    description: "A Gatsby theme for the carbon design system",
+      "HackZurich 2022 - Swiss Re + Microsoft Challenge on Extended Reality",
+    description:
+      "Join the Mixed Reality Challenge from Swiss Re and Microsoft, at HackZurich 2022",
     keywords:
       "hackzurich,swissre,microsoft,challenge,mixed reality,extended reality,augmented reality, virtual reality, hololens",
   },
