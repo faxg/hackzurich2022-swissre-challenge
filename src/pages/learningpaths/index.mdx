@@ -35,17 +35,20 @@ Start here to learn the basic concepts and terminology, and how to pick a tech s
 - [Introduction to Mixed Reality Development](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/development)
 - [Choose your Engine](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/choosing-an-engine)
 
-## For C# / Unity developers (Windows)
+## For C# developers (Windows)
 
-If you plan to develop using .NET / C# and Unity, here are some learning paths and modules to get started.
-
-- [Docs: Mixed Reality Toolkit (MRTK) with Unity] https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05
-- [Build mixed reality digital twins with Azure Digital Twins and Unity](https://docs.microsoft.com/en-us/learn/paths/build-mixed-reality-azure-digital-twins-unity/)
-- [Set up a mixed reality project in Unity with the Mixed Reality Toolkit](https://docs.microsoft.com/en-us/learn/modules/mixed-reality-toolkit-project-unity/)
-- [Create a language translator application with Unity and Azure Cognitive Services.](https://docs.microsoft.com/en-us/learn/modules/create-language-translator-mixed-reality-application-unity-azure-cognitive-services/)
-- [Render a model with Azure Remote Rendering](https://docs.microsoft.com/en-us/learn/modules/render-model-azure-remote-rendering-unity/)
-- [StereoKit, a Unity-Less, code only way of developing MR apps](https://stereokit.net/)
-- [Azure Spatial Anchors for spatial persistence](https://docs.microsoft.com/en-us/azure/spatial-anchors/)
+If you plan to develop using .NET / C#, here are some learning paths and modules to get started. There are multiple ways to develop MR Apps on Windows using C#. **For beginners, we suggest to try out Unity**, as it's the most used tool with tons of learning resources and tools.
+- Unity (Game-Engine, multi-platform support (Android, iOS, HL2, multiple VR-glasses...)
+  - [Set up a Mixed Reality project in Unity with the Mixed Reality Toolkit](https://docs.microsoft.com/en-us/learn/modules/mixed-reality-toolkit-project-unity/)
+  - [Docs: Mixed Reality Toolkit (MRTK) with Unity](https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/?view=mrtkunity-2022-05): MRTK is a very powerful package for Unity, which contains easy to use UI components such as buttons, keyboards, textboxes, hologram interaction and much more. MRTK also supports multiple devices. This way developers only have to develop their application once and can deploy it to smartphones and MR/VR glasses.
+  - [Build Mixed Reality digital twins with Azure Digital Twins and Unity](https://docs.microsoft.com/en-us/learn/paths/build-mixed-reality-azure-digital-twins-unity/)
+  - [Create a language translator application with Unity and Azure Cognitive Services.](https://docs.microsoft.com/en-us/learn/modules/create-language-translator-mixed-reality-application-unity-azure-cognitive-services/)
+  - [Render large models with Azure Remote Rendering](https://docs.microsoft.com/en-us/learn/modules/render-model-azure-remote-rendering-unity/)
+  - [Azure Spatial Anchors for spatial persistence](https://docs.microsoft.com/en-us/azure/spatial-anchors/): If you want your app to be space-persistent (e.g. store a hologram's location relative to a real world location across multiple sessions and devices) or you want an MR multi-player experience, take a look at ASA. We're always happy to answer questions about ASA. 
+- StereoKit (A light-weight, UI-less way to develop MR apps): StereoKit allows you to have much faster development cycles than Unity. If your desired app generates all its content at runtime, StereoKit is a good choice to start! StereoKit comes with C# and C++ wrappers - whatever you prefer.
+  - [StereoKit, a Unity-Less, code only way of developing MR apps](https://stereokit.net/)
+- Unreal Engine
+  - [Learn Unreal Engine for HL2 development](https://www.unrealengine.com/en-US/blog/learn-unreal-engine-for-microsoft-hololens-2)
 
 ## For JavaScript/TypeScript developers
 
@@ -57,7 +60,7 @@ If you want to use JavaScript and WebXR, we recommend you start with the followi
 
 ## Additional Resources (Microsoft Research)
 
-Additional interesting material, e.g. from the <span>Mixed-Reality and AI Lab at ETH Zurich</span>
+Additional interesting material, e.g. from the <span>Mixed-Reality and AI Lab at ETH Zurich</span> For questions about this work, contact Eric or Patrick from the Microsoft Team on Discord.
 
 - https://www.microsoft.com/en-us/research/blog/enabling-interaction-between-mixed-reality-and-robots-via-cloud-based-localization/
 - https://www.microsoft.com/en-us/research/podcast/holograms-spatial-anchors-and-the-future-of-computer-vision-with-dr-marc-pollefeys/
