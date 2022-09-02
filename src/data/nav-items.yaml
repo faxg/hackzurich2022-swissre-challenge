@@ -23,6 +23,8 @@
       path: /learningpaths
     - title: Videos and Tutorials
       path: /video-tutorials
+    - title: 3D Assets
+      path: /3d-assets
     # - title: Inspiration
     #   path: /inspiration
     # - title: Azure Services

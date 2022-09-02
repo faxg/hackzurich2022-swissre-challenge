@@ -8,13 +8,21 @@ import HL from "./hololens_1.png";
 const FirstLeftText = () => <p>Welcome Hackers</p>;
 
 const FirstRightText = () => (
-  <p>
-    This is the <b>Landing Page</b> for the HackZurich 2022 challenge by Swiss
-    Re and Microsoft.
-    {/* <a className={calloutLink} href="/getting-started">
+  <>
+    <p>
+      This is the <b>Landing Page</b> for the HackZurich 2022 challenge by Swiss
+      Re and Microsoft.
+      {/* <a className={calloutLink} href="/getting-started">
       Start here →
     </a> */}
-  </p>
+    </p>
+    <p style={{ paddingTop: `1.5rem` }}>
+      This page is still under construction, but you’ll already find helpful
+      information to be best prepared for our challenge. We highly recommend to
+      check out the learning paths. Enjoy and revisit this page during the
+      HackZurich 2022 for more instructions on the challenge.
+    </p>
+  </>
 );
 
 // const SecondLeftText = () => <p>Callout component</p>;
