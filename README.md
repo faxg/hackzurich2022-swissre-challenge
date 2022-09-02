@@ -1,31 +1,15 @@
-# Gatsby Theme Carbon Starter
+# HackZurich 2022 - Swiss Re and Microsoft Challenge Landing Page
 
 ## What is this?
 
-> Gatsby [themes](https://www.gatsbyjs.org/docs/themes/) encapsulate all of the
-> configuration and implementation details of Gatsby websites. This is a
-> starter-kit (boilerplate) with a dependancy on the `gatsby-theme-carbon`
-> package. The primary goal of `gatsby-theme-carbon` is to get content authors
-> speaking the IBM Design Language with Carbon as soon as possible. It includes
-> some sample components/content demos in the `src/pages` directory.
+ - A [Gatsby](https://www.gatsbyjs.com/) site, deployed using GitHub Actions to GitHub pages [docs](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow). 
+ - The Landing Page for the Swiss Re + Microsoft Challenge on "Mixed Reality" 2022
+ - Please open a pull request on the .mdx files for additional content
+ - Uses Carbon Theme from IBM - [getting started](https://gatsby-theme-carbon.now.sh/getting-started).
+
 
 ## How do I use it?
-
-Check out our quick
-[getting started](https://gatsby-theme-carbon.now.sh/getting-started) guide and
-video!
-
-`gatsby-theme-carbon` at it’s core relies on [mdx](https://mdxjs.com/) for page
-creation. Check out the `src/pages` directory for some examples for using mdx.
-
-A key feature of Gatsby themes is component shadowing. By simply placing a
-component into the `src/gatsby-theme-carbon/components` location, you can
-override components used by the theme. You can read more about component
-shadowing
-[here](https://www.gatsbyjs.org/docs/themes/api-reference#component-shadowing).
-
-You’re also free to make your own components and use them in your MDX pages.
+- Go to the published site. You sould reach it here [https://aka.ms/hackzurich2022](https://aka.ms/hackzurich2022)
 
 ## What’s Next?
-
-[Check out the docs!](https://gatsby-theme-carbon.now.sh)
+- [Check out the Carbon Theme docs](https://gatsby-theme-carbon.now.sh)
