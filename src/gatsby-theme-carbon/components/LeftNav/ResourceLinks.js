@@ -15,6 +15,10 @@ const links = [
     href: "https://corporatesolutions.swissre.com/innovative-risk-solutions/weather-solutions/float.html",
   },
   {
+    title: "Swiss Re - Risk Engineering Solutions",
+    href: "https://corporatesolutions.swissre.com/insurance-solutions/services/risk-engineering-services.html",
+  },
+  {
     title: "Microsoft  - Mixed Reality",
     href: "https://docs.microsoft.com/en-us/windows/mixed-reality/discover/mixed-reality",
   },

@@ -12,9 +12,9 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "HackZurich 2022 SwissRe + Microsoft Challenge on Extended Reality",
+        name: "HackZurich 2022 Swiss Re + Microsoft Challenge on Extended Reality",
         icon: "./static/images/favicon.svg",
-        short_name: "SwissRe + MSFT Challenge",
+        short_name: "Swiss Re + MSFT Challenge",
         start_url: "/",
         background_color: "#ffffff",
         theme_color: "#627d77",

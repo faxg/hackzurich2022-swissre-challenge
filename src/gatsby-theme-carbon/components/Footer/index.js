@@ -22,12 +22,7 @@ const links = {
       linkText: "Mixed Reality documentation",
     },
   ],
-  secondCol: [
-    { href: "https://aka.ms/hackzurich2022", linkText: "Link 4" },
-    { href: "https://aka.ms/hackzurich2022", linkText: "Link 5" },
-    { href: "https://aka.ms/hackzurich2022", linkText: "Link 6" },
-    { href: "https://aka.ms/hackzurich2022", linkText: "Link 7" },
-  ],
+  secondCol: [],
 };
 
 const CustomFooter = () => (

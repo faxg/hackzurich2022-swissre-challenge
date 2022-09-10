@@ -44,7 +44,7 @@ const BannerText = () => (
   <>
     {" "}
     <h1>HackZurich 2022</h1>
-    SwissRe + Microsoft Challenge
+    Swiss Re + Microsoft Challenge
   </>
 );
 
