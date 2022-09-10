@@ -1,5 +1,63 @@
 // This is where your application styles could go.
 .logo {
-    fill: $carbon--gray-10;
-    margin-top: $spacing-07;
+  fill: $carbon--gray-10;
+  margin-top: $spacing-07;
+}
+
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-col {
+  flex-direction: column;
+}
+@media (min-width: 1024px) {
+  .lg\:flex-nowrap {
+    flex-wrap: nowrap;
   }
+}
+.p-10 {
+  padding: 2.5rem /* 40px */;
+}
+.w-full {
+  width: 100%;
+}
+.items-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.linkedin {
+  text-decoration: none;
+  color: white;
+}
+.linkedin:after {
+  content: url("https://api.iconify.design/akar-icons/linkedin-box-fill.svg?color=white&width=16&height=16");
+  clear: both;
+  display: table;
+}
+.text-lg {
+  font-size: 1.125rem /* 18px */;
+  line-height: 1.75rem /* 28px */;
+}
+.text-sm {
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.space-y-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
+}
