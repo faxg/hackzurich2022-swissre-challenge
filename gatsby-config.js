@@ -7,7 +7,7 @@ module.exports = {
     keywords:
       "hackzurich,swissre,microsoft,challenge,mixed reality,extended reality,augmented reality, virtual reality, hololens",
   },
-  pathPrefix: `/gtc`,
+  pathPrefix: `/hackzurich2022-swissre-challenge`,
   plugins: [
     {
       resolve: "gatsby-plugin-manifest",
