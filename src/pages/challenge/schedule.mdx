@@ -4,6 +4,8 @@ description: What's happening at the conference
 ---
 
 import { withPrefix } from "gatsby";
+export const TalkImage = () => <img src={withPrefix ('/images/thumbnail_Hack_Zurich_Cover-Slide.png')} />
+
 
 ## Our HackZurich 2022 Schedule
 
@@ -22,8 +24,7 @@ import { withPrefix } from "gatsby";
 ** Time **: 11:00 CEST
 
 **Building blocks for XR Apps and the Metaverse**
-![]({withPrefix ('/images/thumbnail_Hack_Zurich_Cover-Slide.png')})
-
+<TalkImage />
 How to develop Multi-Platform/Multi-Device AR, MR & VR Apps for Smartphones, HoloLens
 and VR Devices using Opensource Frameworks and Cloud Services doing the heavy lifting
 for you.

@@ -9,7 +9,13 @@ Developing an Extended Reality application will require the usage of 3D assets s
 
 </PageDescription>
 
-![3D Mountains](3dassets_mountains.png)
+import { withPrefix } from "gatsby";
+export const CoverImage = () => <img src={withPrefix ('/images/3dassets_mountains.png')} alt="3D Mountains"/>
+
+
+
+<CoverImage />
+
 
 To accelerate the creation of your prototype, please feel free to use existing content in 3D asset stores such as
 
