@@ -10,15 +10,15 @@ const Content = ({ buildTime }) => (
 const links = {
   firstCol: [
     {
-      href: "http://microsoft.com/en-us/research/",
+      href: "http://microsoft.com/en-us/research/?ocid=AID3054426",
       linkText: "Microsoft Research",
     },
     {
-      href: "https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/",
+      href: "https://www.microsoft.com/en-us/research/lab/mixed-reality-ai-zurich/?ocid=AID3054426",
       linkText: "Microsoft Mixed Reality & AI Lab - Zurich",
     },
     {
-      href: "https://docs.microsoft.com/en-us/windows/mixed-reality/",
+      href: "https://docs.microsoft.com/en-us/windows/mixed-reality/?ocid=AID3054426",
       linkText: "Mixed Reality documentation",
     },
   ],
