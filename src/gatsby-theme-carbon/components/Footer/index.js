@@ -1,5 +1,6 @@
 import React from "react";
 import Footer from "gatsby-theme-carbon/src/components/Footer";
+import { withPrefix } from "gatsby";
 
 const Content = ({ buildTime }) => (
   <>
@@ -30,7 +31,11 @@ const CustomFooter = () => (
     links={links}
     Content={Content}
     Logo={() => (
-      <img className={"logo"} src="/images/logo.svg" alt="Logo"></img>
+      <img
+        className={"logo"}
+        src={withPrefix("/images/logo.svg")}
+        alt="Logo"
+      ></img>
     )}
   />
 );
