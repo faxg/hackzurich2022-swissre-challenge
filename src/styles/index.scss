@@ -45,6 +45,16 @@
   clear: both;
   display: table;
 }
+.underline {
+  text-decoration: underline;
+}
+.discord {
+  text-decoration: none;
+  color: white;
+}
+.discord:before {
+  content: url("https://api.iconify.design/simple-icons/discord.svg?color=white&width=24&height=24");
+}
 .text-lg {
   font-size: 1.125rem /* 18px */;
   line-height: 1.75rem /* 28px */;

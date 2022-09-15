@@ -17,10 +17,18 @@ const FirstRightText = () => (
     </a> */}
     </p>
     <p style={{ paddingTop: `1.5rem` }}>
-      This page is still under construction, but you’ll already find helpful
-      information to be best prepared for our challenge. We highly recommend to
-      check out the learning paths. Enjoy and revisit this page during the
-      HackZurich 2022 for more instructions on the challenge.
+      This page will provide you more information about the Swiss Re x Microsoft
+      challenge "Raise risk awareness through Extended Reality"
+    </p>
+    <p style={{ paddingTop: `1.5rem` }}>
+      <a
+        class="discord"
+        target="_blank"
+        rel="noreferrer"
+        href="https://discord.com/channels/987004253711245342/1011653629792493579"
+      >
+        &nbsp;<span class="underline">Join us on Discord</span>
+      </a>
     </p>
   </>
 );
