@@ -9,6 +9,8 @@
       path: /challenge/criteria
     - title: Meet the team
       path: /challenge/team
+    - title: Risk Engineering @Swiss Re
+      path: /challenge/riskeng
     - title: Schedule
       path: /challenge/schedule
 # - title: Gallery
